@@ -1,158 +1,224 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" xmlns:margin-left="http://www.w3.org/1999/xhtml" xmlns:font-color="http://www.w3.org/1999/xhtml">
 
 <head>
+
+    <link rel="shortcut icon" type="image/x-icon">
+
+    <meta name="view port" content="width=device-width,minimum-scale=1,initial-scale=1" />
+
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1" />
+
     <title>Zaio</title>
-    <meta name="Description" content="Zaio Landing page" />
-    <meta name="theme-color" content="" /> /*
+
+    <meta name="Description" content="Zaio Landing Page" />
+    <meta name="theme color" content="#ec555" />
+    <link href="fonts.googleapis.com/css? family=poppins: 300,400,500,600,700" rel="stylesheet" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-    <link rel="stylesheet" href="main.css"> */
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style data styled-version="4.4.1"></style>
+
 </head>
 
 <body>
-    <header class="first" id="first">
-        <div class="logo" id="logo">
-            <img src="images/logo_white.png" alt="zaio white logo">
+    <header class="top" id="top">
+        <img src="images/logo_white.png" alt="zaio logo">
+
+        <div class="menu">
+            <nav class="nav-link-right" id="nav-link">
+                <ul class="menu-list">
+                    <li>
+                        <a href="index.html" class="nav-link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#hiring" class="nav-link">Hiring</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">Case Studies</a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link">FAQ</a>
+                    </li>
+                    <li>
+                        <p><button href="#" class="button1">For Learners</button></p>
+                    </li>
+                    <li>
+                        <p><button href="#" class="button2">For Hire</button></P>
+                    </li>
+                    <li>
+                        <p><button href="#" class="button2">Talk to an expert</button></p>
+                    </li>
+                </ul>
+            </nav>
         </div>
-        <div class="menu-bar">
-            <nav class="nav-link" id="nav-link">
-                <ul class="menu">
-                    <li>
-                        <a href="main.html" class="nav-link">Home</a>
-                    </li>
-                    <li>
-                        <a href="#next_gen_hiring" class="nav-link">Next-Gen Hiring</a>
-                    </li>
-                    <li>
-                        <a href="#case_studies" class="nav-link">Case Studies</a>
-                    </li>
-                    <li>
-                        <a href="#faq" class="nav-link">FAQ</a>
-                    </li>
-                    <li>
-                        <button href="#" class="button1">For Learners</button>
-                    </li>
-                    <div class="paragraph" id="paragraph">
-                        <h2>
-                            Tap into technical talent like never before
-                        </h2>
-                        <p>
-                            Whether you’re hiring or upskilling your team, we’re here to develop talent specific to your goals. How do we do that?
-                        </p>
-                        <a href="#" class="cta">Learn more ?</a>
-                    </div>
-                    <div class="image" id="image">
-                        <img src="images/1stimage.png" alt="">
-                    </div>
+    </header>
+
+
+    <div class="information">
+        <div class="paragraph1">
+            <h1>
+                Tap into technical talent like never before
+            </h1>
+            <p1>
+
+                Whether you’re hiring or upskilling your team, we’re here to develop talent specific to your goals. How do we do that?
+
+            </p1>
+            <br>
+            <button href="#" class="button1">Learn More ?</button>
         </div>
-        </div class="elite-talent">
-        <h3>
+        <img src="https://d33wubrfki0l68.cloudfront.net/2c2cd601472d72f605146a0680f7157d2fadc9f9/d5590/_next/static/images/banner11-871cb952a3c49bd532ded05d9d72fa64.png" alt="office image" class="image1">
+    </div>
+
+
+    <!--<section class="column ">-->
+    <div class=" work-ready ">
+        <h2>
             Turn Developers into Work-Ready Elite Talent
-        </h3>
-        <div class="pipeline-talent">
-            <img src="images/2ndimage.svg" alt="">
-            <h4>Pipeline Of Talent</h4>
-            <p>
-                Select from a pool of young developers that are used to a team-orientated and deadline-driven environment as they develop your company’s current and future digital strategy
-            </p>
-        </div>
-        <div class="derisk-recruitment">
-            <img src="images/3rdimage.svg" alt="">
-            <h4>De-Risk Your Recruitment</h4>
-            <p>
-                Save time & money by selecting the developers that are a perfect match for your company’s culture and its digital needs
-            </p>
-        </div>
-        <div class="hiring">
-            <img src="images/4thimage.svg" alt="">
-            <h4>Hire Workspace Ready Talent</h4>
-            <p>
-                Enjoy the immediate productivity of developers that are acclimated to your company. They are equipped with all the hard and soft skills embodied by your company
-            </p>
-        </div>
-        <div>
-            <div class="next-gen-hiring" id="next-gen-hiring">
-                <div>
-                    <h3>The Next-Generation Hiring Methodology</h3>
-                    <img src="images/5thimage.png" alt="">
-                    <div class="timeline">
-                        <ul>
-                            <li class="date" data-date="01">
-                                <div>
-                                    <h4>
-                                        We Meet You
-                                    </h4>
+        </h2>
 
-                                    <p>
-                                        We meet with your technical/developer leads to create a customized curriculum focusing on your company’s needs
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="date" data-date="02">
-                                <div>
-                                    <h4>
-                                        Screening Candidates
-                                    </h4>
-                                    <p>
-                                        We screen candidates from our database and choose only the best for the customized learning program
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="date" data-date="03">
-                                <div>
-                                    <h4>
-                                        Training Candidates
-                                    </h4>
-                                    <p>
-                                        Candidates go through the customised learning program, with a live leaderboard and trackable journey that you can follow
-                                    </p>
-                                </div>
-                            </li>
-                            <li class="date" data-date="04">
-                                <div>
-                                    <h4>
-                                        Work-Ready Talent
-                                    </h4>
-                                    <p>
-                                        Post the learning programme, we provide you with detailed candidate profiles and place the best work ready candidates in your business
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
+        <div class="row ">
+            <div class="column ">
+                <!-- <div class="pipeline-talent "> -->
+                <img src="images/2ndimage.svg" alt=" pipeline " height="150" width="150">
+                <h2>Pipeline Of Talent</h2>
+                <p>Select from a pool of young developers that are used to a team-orientated and deadline-driven environment as they develop your company’s current and future digital strategy
+                </p>
+            </div>
 
-                    </div>
+            <div class="column ">
+                <!-- <div class=" derisk-recruitment "> -->
+                <img src="images/3rdimage.svg" alt=" lesson image " height="150" width="150">
+                <h2>De-Risk Your Recruitment</h2>
+                <p>
+                    Save time & money by selecting the developers that are a perfect match for your company’s culture and its digital needs
+                </p>
+            </div>
+
+
+            <div class="column ">
+                <!-- <div class="workspace-ready "> -->
+                <img src="images/4thimage.svg" alt=" ready " height="150" width="150" float="center">
+                <h2>Hire Workspace ready Talent</h2>
+                <p>
+                    Enjoy the immediate productivity of developers that are acclimated to your company. They are equipped with all the hard and soft skills embodied by your company
+                </p>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <div class="last">
+        <div class="hiring " id="hiring ">
+            <h2>The next generation hiring method</h2>
+        </div>
+        <div class="row2">
+            <div class="column2">
+                <img src="images/5thimage.png" alt="planning " width="700" height="700">
+            </div>
+
+            <div class="column2">
+                <div class="timeline" style="float:right">
+                    <ul>
+                        <li class="date " data-date="01 ">
+                            <div>
+                                <h4>
+                                    We Meet You
+                                </h4>
+
+                                <p>
+
+                                    We meet with your technical/developer leads to create a customized curriculum focusing on your company’s needs
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class="date " data-date="02 ">
+                            <div>
+                                <h4>
+                                    Screening Candidates
+                                </h4>
+                                <p>
+
+                                    We screen candidates from our database and choose only the best for the customized learning program
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class="date " data-date="03 ">
+                            <div>
+                                <h4>
+                                    Training Candidates
+                                </h4>
+                                <p>
+
+                                    Candidates go through the customised learning program, with a live leaderboard and trackable journey that you can follow
+
+                                </p>
+                            </div>
+                        </li>
+                        <li class="date " data-date="04 ">
+                            <div>
+                                <h4>
+                                    Work-Ready Talent
+                                </h4>
+                                <p>
+                                    Post the learning programme, we provide you with detailed candidate profiles and place the best work ready candidates in your business
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+
                 </div>
             </div>
-            <section id="contact" class="contact">
-                <div class="container">
-                    <h1>Schedule a personalised 1:1</h1>
-                    <h3>Speak to an expert who can walk you through the ways Zaio can benefit your specific situation.</h3>
-                    <button type="button"> Get In Touch<button>
-        </section>
-                <footer class="footer">
-            <div class="footer-menu " id="footer-menu ">
-                <div >
-                    <img src="images/logo_white.png " alt=" ">
-                </div>
-                <div class="footer# ">
-	<ul>
-                    <a href="/ Home ">Home</a>
-                    <a href="/about ">About Us</a>
-                    <a href="# " >Community</a>
-                    <a href="# " >DevJam</a>
-                    <a href="# " >Contact Us</a>
-	</ul>
-                </div>
-                <p>&copy; 2020 Zaio candidate</p>
+        </div>
+    </div>
+
+    <div class="schedule ">
+        <h2>
+            Schedule a personalised 1:1
+        </h2>
+        <h2>
+            Speak to an expert who can walk you through the ways Zaio can benefit your specific situation.
+        </h2>
+        <button class="button4 ">
+                Get In Touch
+            </button>
+    </div>
+
+    <footer class="footer ">
+        <div class="footer-menu " id="footer-menu ">
+            <div>
+
+
+                <img src="images/logo_white.png" alt=ZAIO white logo>
             </div>
-        </footer>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
-                                <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
-                                <script src="main.js "></script>
+            <div class=" footer-links ">
+                <a href="# " class="footer-links ">Home</a>
+                <a href="# " class="footer-links ">About Us</a>
+                <a href="# " class="footer-links ">Community</a>
+                <a href="# " class="footer-links ">DevJam</a>
+                <a href="# " class="footer-links ">Contact Us</a>
+            </div>
+            <p1>&copy 2020 ZAIO all rights reserved
+                <br>Zaio candidate</p1>
+        </div>
+    </footer>
 
-    </body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js ">
+    </script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js "></script>
+    <script src="main.js "></script>
+    <div class="Toastify "></div>
+    </div>
+
+</body>
+
 </html>
