@@ -116,7 +116,7 @@ h2 {
     margin: 0px;
 }
 
-.information .button1 {
+.first .button1 {
     color: white;
     background-color: darkorange;
     width: 150px;
@@ -131,7 +131,7 @@ h2 {
     height: 45px;
 }
 
-.information {
+.first {
     background-color: #16325b;
     display: inline-flex;
     color: white;
@@ -141,7 +141,7 @@ h2 {
     width: 100%;
 }
 
-.information .paragraph1 {
+.first .paragraph1 {
     width: 50%;
     padding: 130px 30px 10px 40px;
     -webkit-font-smoothing: antialiased;
@@ -167,7 +167,7 @@ div {
 }
 
 
-/*.information-heading h1 {*/
+/*.first-heading h1 {*/
 
 
 /*    font-size: 10rem;*/
@@ -182,7 +182,7 @@ div {
 /*}*/
 
 
-/*.information-img {*/
+/*.first-img {*/
 
 
 /*    flex: 1;*/
